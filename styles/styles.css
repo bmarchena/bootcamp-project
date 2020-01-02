@@ -37,3 +37,19 @@ body{
     border-radius: 5px;
     color: white;
 }
+
+.nav-logo {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.l-heading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Facts Page */
+.facts-top-img {
+    height: 50%;
+    width: 100%;
+}
