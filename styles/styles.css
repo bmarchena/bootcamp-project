@@ -53,29 +53,6 @@ body{
     color: white;
 }
 
-/* Showcase */
-#showcase{
-    background: #333333 url(/bootcamp-project/img/elephant-showcase.jpg) no-repeat center center/cover;
-    height: 100vh;
-}
-
-#showcase .showcase-content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0 2rem;
-    /* Overlay! */
-    top: 60px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    background-color: #33333386;
-}
-
 .splash-start{
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -96,8 +73,6 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
-
-
 
 /* About Page */
 
@@ -201,7 +176,6 @@ body{
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
-<<<<<<< HEAD
 }
 /* Utility classes */
 
@@ -220,7 +194,7 @@ body{
 
 /* Showcase */
 #showcase{
-    background: #333333 url(/bootcamp-project/img/elephant-showcase.jpg) no-repeat center center/cover;
+    background: #333333 url('../img/elephant-showcase.jpg') no-repeat center center/cover;
     height: 100vh;
 }
 
@@ -250,6 +224,3 @@ body{
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
-=======
-}
->>>>>>> origin/splashpage
