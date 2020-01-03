@@ -38,11 +38,6 @@ body{
     color: white;
 }
 
-.list li a:hover, .list li a.current{
-    background: #444;
-    color: #f7c08a;
-}
-
 .nav-logo {
     max-height: 50px;
     max-width: 50px;
@@ -59,9 +54,7 @@ body{
 
 .about-container{
     margin: auto;
-    max-width: 1100px;
     overflow: auto;
-    padding: 0 20px;
 }
 
 .about-top-left{
@@ -85,7 +78,7 @@ body{
 }
 
 .about-text{
-    margin: 10px 15px;
+    margin: 10px 50px;
     line-height: 1.5em;
 }
 
@@ -129,8 +122,27 @@ body{
 .facts-content p {
     line-height: 1.5rem;
     padding-left: 5px;
+    padding-right: 10px;
+}
+
+.facts-content div {
+    padding-bottom: .25rem;
 }
 
 .facts-side-img {
     background: url(../img/elephant_img2.jpg) no-repeat center center/cover;
+}
+
+.facts-footer { 
+    text-align: center;
+    background: rgb(81, 243, 130);
+    color: #333;
+    padding: 1.5rem 0;
+}
+
+.facts-footer div {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
 }
