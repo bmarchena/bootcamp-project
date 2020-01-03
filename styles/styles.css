@@ -82,7 +82,9 @@ body{
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
-.lead{
+
+.lead {
     font-size: 1.3rem;
     margin-bottom: 2rem;
+    display: inline-block;
 }
