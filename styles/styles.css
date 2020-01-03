@@ -5,7 +5,6 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.4;
 }
 
 /* Navbar */
@@ -39,6 +38,35 @@ body{
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+/* Utility classes */
+
+.btn{
+    padding: 5px;
+    background-color: rgb(81, 243, 130);
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.splash-start{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+>>>>>>> origin/ev_branch
 .nav-logo {
     max-height: 50px;
     max-width: 50px;
@@ -48,8 +76,6 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
-
-
 
 /* About Page */
 
@@ -192,6 +218,14 @@ body{
     background-color: #33333386;
 }
 
+<<<<<<< HEAD
+=======
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+>>>>>>> origin/ev_branch
 .lead{
     font-size: 1.3rem;
     margin-bottom: 2rem;
