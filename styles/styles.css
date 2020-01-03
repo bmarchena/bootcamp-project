@@ -57,6 +57,10 @@ body{
 .about-container{
     margin: auto;
     overflow: auto;
+    display: flex;
+    height: 600px;
+    background: url('../img/elephants_about.jpg') no-repeat center center/cover;
+    padding-top:50px;
 }
 
 .about-top-left{
@@ -82,13 +86,16 @@ body{
 .about-text{
     margin: 10px 50px;
     line-height: 1.5em;
+    color: #000;
+    font-size: 18px;
+    text-shadow:
+        0.05em 0 #fff,
+        0 0.05em #fff,
+        -0.05em 0 #fff,
+        0 -0.05em #fff;
 }
 
-.about-bottom{
-    height: 600px;
-    background: url('../img/elephants_about.jpg') no-repeat center center/cover;
-    padding-top:100px;
-}
+
 
 
 /* Facts Page */
