@@ -11,3 +11,6 @@ This project was designed to have our group collaborate using git commands, the 
 
 ## Demo
 ![DEMO](img/maingif.gif)
+
+## Issues
+https://github.com/bmarchena/bootcamp-project/issues?q=is%3Aissue+is%3Aclosed

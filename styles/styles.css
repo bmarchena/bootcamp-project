@@ -38,6 +38,8 @@ body{
     color: white;
 }
 
+<<<<<<< HEAD
+=======
 /* Utility classes */
 
 .btn{
@@ -64,6 +66,7 @@ body{
     margin-bottom: 2rem;
     display: inline-block;
 }
+>>>>>>> origin/ev_branch
 .nav-logo {
     max-height: 50px;
     max-width: 50px;
@@ -215,11 +218,14 @@ body{
     background-color: #33333386;
 }
 
+<<<<<<< HEAD
+=======
 .l-heading{
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
+>>>>>>> origin/ev_branch
 .lead{
     font-size: 1.3rem;
     margin-bottom: 2rem;
