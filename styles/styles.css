@@ -77,7 +77,7 @@ body{
     background-color: #33333386;
 }
 
-.l-heading{
+.splash-start{
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
@@ -87,4 +87,71 @@ body{
     font-size: 1.3rem;
     margin-bottom: 2rem;
     display: inline-block;
+}
+.nav-logo {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.l-heading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Facts Page */
+.facts-top-img {
+    background: url(../img/elephant_img1.jpg) no-repeat center center/cover;
+    height: 375px;
+    width: 100%;
+    position: relative;
+}
+
+.facts-top-img span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: .25rem;
+    padding-bottom: .25rem;
+    color:#000;
+}
+
+.facts-content {
+    display: flex;
+}
+
+.facts-content div {
+    flex: 1;
+}
+
+.facts-content h1 {
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+.facts-content p {
+    line-height: 1.5rem;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.facts-content div {
+    padding-bottom: .25rem;
+}
+
+.facts-side-img {
+    background: url(../img/elephant_img2.jpg) no-repeat center center/cover;
+}
+
+.facts-footer { 
+    text-align: center;
+    background: rgb(81, 243, 130);
+    color: #333;
+    padding: 1.5rem 0;
+}
+
+.facts-footer div {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
 }
